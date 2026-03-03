@@ -1,5 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap");
+
 body {
   margin: 0;
+  background-color:;
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 2em;
 }
 
 header {
@@ -30,6 +42,11 @@ main {
   max-width: 75%;
 }
 
+.footer-wrap,
+.main-content {
+  max-width: 1200px;
+}
+
 .main-content {
   display: flex;
   justify-content: space-around;
@@ -46,6 +63,14 @@ aside {
   width: 25%;
 }
 
+aside h2 {
+  font-family: unset;
+  font-family: unset;
+  font-weight: unset;
+  text-transform: unset;
+  font-size: unset;
+}
+
 aside div {
   display: inherit;
   flex-flow: column nowrap;
@@ -55,4 +80,10 @@ aside div {
 
 aside p {
   margin: 0;
+}
+
+.footer-wrap {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px auto;
 }
