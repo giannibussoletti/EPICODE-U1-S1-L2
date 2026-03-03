@@ -6,6 +6,9 @@ header {
   width: 100%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  max-width: 900px;
 }
 
 header img {
@@ -23,8 +26,33 @@ nav ul li {
   padding: 20px 10px;
 }
 
+main {
+  max-width: 75%;
+}
+
 .main-content {
-  max-width: 1240px;
+  display: flex;
+  justify-content: space-around;
+  max-width: 1200px;
   width: 100%;
   margin: 0 auto;
+  gap: 20;
+}
+
+aside {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: flex-end;
+  width: 25%;
+}
+
+aside div {
+  display: inherit;
+  flex-flow: column nowrap;
+  align-items: flex-end;
+  margin-bottom: 2em;
+}
+
+aside p {
+  margin: 0;
 }
