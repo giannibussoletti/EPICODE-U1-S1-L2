@@ -19,7 +19,19 @@ hr {
   margin: 0;
 }
 
-header {
+a {
+  text-decoration: none;
+  color: #a0102d;
+  font-weight: bold;
+}
+
+header,
+footer,
+aside {
+  background-color: #d1e4dd;
+}
+
+.header-wrap {
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -45,7 +57,6 @@ nav ul li {
 
 main {
   max-width: 75%;
-  margin: 0;
 }
 
 .footer-wrap,
@@ -57,17 +68,18 @@ main {
   display: flex;
   justify-content: space-around;
   width: 100%;
-  margin: 0 auto;
+  margin: 40px auto;
   gap: 20;
 }
 
 article {
-  padding: 10px;
-  margin: 5px auto;
+  padding: 30px;
+  margin: 0 auto 10px auto;
+  background-color: #716a5c2e;
 }
 
 article h2 {
-  margin: 1em 0 0.5em 0;
+  margin: 0 0 0.5em 0;
 }
 
 aside {
@@ -75,8 +87,7 @@ aside {
   flex-flow: column nowrap;
   align-items: flex-end;
   width: 25%;
-  background-color: #d1e4dd;
-  margin: 30px;
+  margin: 0 30px;
   padding-right: 30px;
   border-radius: 20px;
   border: 3px solid #28303d;
@@ -101,8 +112,14 @@ aside p {
   margin: 0;
 }
 
+footer {
+  display: flex;
+  padding: 20px 0;
+  justify-content: center;
+}
+
 .footer-wrap {
+  width: 100%;
   display: flex;
   justify-content: space-between;
-  margin: 20px auto;
 }
